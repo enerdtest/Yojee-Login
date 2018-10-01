@@ -1,9 +1,8 @@
-package Pages;
+package pages;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.How;
+
+import static org.testng.Assert.assertEquals;
 
 public class HomePage {
 
@@ -13,17 +12,11 @@ public class HomePage {
         this.driver=driver;
     }
 
-    //Using FindBy for locating elements
-
-
-    @FindBy(how = How.XPATH, using = ".//*/div/span[contains(@class, 'semi-bold')]") WebElement userName;
-
-
-    //Get userName
-    public void verifyUserName(){
-        userName.getText();
-        String text = userName.getText();
-        System.out.println(text);
+    //This method to click User Profile
+    public void verifyLandingPage(){
+        String actualTitle = driver.getTitle();
+        System.out.println(actualTitle);
+        String landingTitle = "Yojee Driver Admin";
+        assertEquals(landingTitle,actualTitle);
     }
-
 }

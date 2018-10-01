@@ -3,27 +3,30 @@ package Test;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-import Pages.HomePage;
-import Pages.LoginPage;
+import pages.HomePage;
+import pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
+import dataProvider.configFileReader;
 
-public class TestCase {
+public class TestLogin {
 
     public static WebDriver driver = null;
 
     @BeforeSuite
     public void initialize() throws IOException{
 
+        configFileReader configFileReader= new configFileReader();
+
         String osName = System.getProperty("os.name");
         if (osName.contains("windows")){
-            System.setProperty("webdriver.chrome.driver", "src/test/Drivers/chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", configFileReader.getDriverPath());
         }
         else if (osName.contains("Mac")){
-            System.setProperty("webdriver.chrome.driver", "src/test/Drivers/chromedriver");
+            System.setProperty("webdriver.chrome.driver", configFileReader.getDriverPath());
         }
 
         driver = new ChromeDriver();
@@ -32,27 +35,32 @@ public class TestCase {
         //Implicit wait
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         //To open facebook
-        driver.get("https://admin.yojee.com/login");
+        driver.get(configFileReader.getApplicationUrl());
 
     }
 
     @Test
     public void init() throws Exception{
 
+        configFileReader configFileReader = new configFileReader();
         LoginPage loginpage = new LoginPage(driver);
-//        HomePage homepage =new HomePage(driver);
-        loginpage.setEmail("qa@yojee.com");
-        loginpage.setPassword("yojee1234");
-        loginpage.clickOnLoginButton();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        HomePage homepage =new HomePage(driver);
+        homepage.verifyLandingPage();
+        driver.manage().timeouts().implicitlyWait(configFileReader.getImplicitlyWait(), TimeUnit.SECONDS);
 
+        loginpage.setEmail(configFileReader.getUserName());
+        loginpage.setPassword(configFileReader.getPassword());
+        loginpage.clickOnLoginButton();
+        driver.manage().timeouts().implicitlyWait(configFileReader.getImplicitlyWait(), TimeUnit.SECONDS);
+
+        loginpage.verifyUserName();
     }
 
     @AfterSuite
     //Test cleanup
     public void TeardownTest()
     {
-        TestCase.driver.quit();
+        TestLogin.driver.quit();
     }
 
 }
