@@ -11,6 +11,8 @@ git clone git@github.com:enerdtest/Yojee-Login.git
 
 Open the project by InteliJ/Eclipse
 
+Make sure you go to pom.xml file and import all jars file before run the code
+
 Import JAR package using pom.xml
 
 Resolve all errors or conflicts if have
