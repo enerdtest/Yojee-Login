@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Everjobs Suite">
+<suite name="Login">
 
-    <test name="Page Object Model Project">
+    <test name="LoginTest">
         <classes>
-            <class name="Test.TestBase" />
-            <class name="Test.LoginTest" />
+            <class name="TestLogin" />
         </classes>
     </test>
 
