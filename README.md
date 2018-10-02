@@ -17,7 +17,7 @@ Import JAR package using pom.xml
 
 Resolve all errors or conflicts if have
 
-Right click on the LoginTest class to run the project
+Right click on the testng.xml to run the project
 
 NOTE: If you want to use Firefox just down the Firefor driver and include to Drivers folder on the project.
 

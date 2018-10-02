@@ -13,7 +13,7 @@ public class HomePage {
         this.driver=driver;
     }
 
-    //This method to click User Profile
+    //This method got get page title after open the URL to make sure open correct URL
     public void verifyHomePageTitle(){
 
         configFileReader configFileReader = new configFileReader();

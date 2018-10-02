@@ -45,14 +45,17 @@ public class TestLogin {
         configFileReader configFileReader = new configFileReader();
         LoginPage loginpage = new LoginPage(driver);
         HomePage homepage =new HomePage(driver);
-        homepage.verifyHomePageTitle();
+
+        homepage.verifyHomePageTitle(); //Get Login page title to make sure open correct URL
         driver.manage().timeouts().implicitlyWait(configFileReader.getImplicitlyWait(), TimeUnit.SECONDS);
 
+        // Input userName and passWord
         loginpage.setEmail(configFileReader.getUserName());
         loginpage.setPassword(configFileReader.getPassword());
         loginpage.clickOnLoginButton();
         driver.manage().timeouts().implicitlyWait(configFileReader.getImplicitlyWait(), TimeUnit.SECONDS);
 
+        // Verify the userName after login successfully
         loginpage.verifyUserName();
     }
 

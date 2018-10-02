@@ -30,10 +30,12 @@ public class LoginPage {
 
     // This method is to set Email in the email text box
     public void setEmail(String strEmail){
+        txtEmail.clear();
         txtEmail.sendKeys(strEmail);
     }
     // This method is to set Password in the password text box
     public void setPassword(String strPassword){
+        txtPassword.clear();
         txtPassword.sendKeys(strPassword);
     }
     // This method is to click on Login Button
