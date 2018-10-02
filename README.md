@@ -1,5 +1,5 @@
 
-jee-Login
+Yojee Login
 Using Maven and POM
 This is basic login framework used Maven Project and Page Object Model 
 
