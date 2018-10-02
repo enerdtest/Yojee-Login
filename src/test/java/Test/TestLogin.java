@@ -45,7 +45,7 @@ public class TestLogin {
         configFileReader configFileReader = new configFileReader();
         LoginPage loginpage = new LoginPage(driver);
         HomePage homepage =new HomePage(driver);
-        homepage.verifyLandingPage();
+        homepage.verifyHomePageTitle();
         driver.manage().timeouts().implicitlyWait(configFileReader.getImplicitlyWait(), TimeUnit.SECONDS);
 
         loginpage.setEmail(configFileReader.getUserName());

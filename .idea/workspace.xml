@@ -3,19 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="b11d166e-1bd6-410d-b0dd-afaae1f3c496" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configs/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Test/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test/TestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestData/~$login_info.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dataProvider/configFileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/configFileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utility/ExcelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utility/ExcelUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/HomePage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/LoginTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Utility/ExcelUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Utility/ExcelUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test/TestLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test/TestLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dataProvider/configFileReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dataProvider/configFileReader.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,19 +36,19 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="html" value="19" />
-          <entry key="java" value="2259" />
-          <entry key="properties" value="102" />
-          <entry key="xml" value="10" />
+          <entry key="html" value="43" />
+          <entry key="java" value="2483" />
+          <entry key="properties" value="141" />
+          <entry key="xml" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="19" />
-          <entry key="JAVA" value="2259" />
+          <entry key="HTML" value="43" />
+          <entry key="JAVA" value="2483" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Properties" value="102" />
-          <entry key="XML" value="10" />
+          <entry key="Properties" value="141" />
+          <entry key="XML" value="120" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -79,8 +77,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="325">
+              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+              <folding>
+                <element signature="n#build#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+                <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configs/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/configFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+            <state relative-caret-position="400">
+              <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Test/TestLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            <state relative-caret-position="632">
+              <caret line="60" column="28" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1585#1586#0" expanded="true" />
@@ -135,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="370">
+              <caret line="46" column="43" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#842#843#0" expanded="true" />
@@ -153,8 +157,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="210">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,11 +166,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Testng.html">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -193,10 +197,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/Testng.html" />
         <option value="$PROJECT_DIR$/src/main/java/TestNG.java" />
         <option value="$PROJECT_DIR$/src/test/java/Utility/Utility.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Utility/ExcelUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test/TestBase.java" />
@@ -204,14 +206,20 @@
         <option value="$PROJECT_DIR$/src/test/java/Pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestData/data.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/dataProvider/configFileReader.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test/TestLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/configs/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/dataProvider/configFileReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Test/TestLogin.java" />
+        <option value="$PROJECT_DIR$/Testng.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Testng.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1750" />
+    <option name="y" value="269" />
     <option name="width" value="1440" />
     <option name="height" value="848" />
   </component>
@@ -302,6 +310,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="YojeeLogin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Yojee_Login" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="YojeeLogin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Yojee_Login" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -310,10 +329,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538387281671" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538469590566" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.14252874" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -336,23 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="LoginTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Yojee_Login" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test" />
-      <option name="MAIN_CLASS_NAME" value="Test.LoginTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG./Users/sangkieu/Documents/Yojee_Login/Testng.xml">
     <configuration name="TestBase" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Yojee_Login" />
       <extension name="coverage">
@@ -421,20 +424,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/sangkieu/Documents/Yojee_Login/Testng.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Yojee_Login" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.LoginTest" />
       <item itemvalue="TestNG.TestBase" />
       <item itemvalue="TestNG.TestBase.init" />
       <item itemvalue="TestNG.TestLogin" />
       <item itemvalue="TestNG.TestLogin.init" />
+      <item itemvalue="TestNG./Users/sangkieu/Documents/Yojee_Login/Testng.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/sangkieu/Documents/Yojee_Login/Testng.xml" />
         <item itemvalue="TestNG.TestLogin" />
         <item itemvalue="TestNG.TestLogin.init" />
         <item itemvalue="TestNG.TestBase" />
         <item itemvalue="TestNG.TestBase.init" />
-        <item itemvalue="TestNG.LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -452,27 +465,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestLogin - 2018.10.01 at 14h 37m 16s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLogin - 2018.10.01 at 14h 38m 21s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLogin - 2018.10.01 at 14h 39m 25s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLogin - 2018.10.01 at 14h 50m 11s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLogin - 2018.10.01 at 14h 51m 06s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLogin - 2018.10.01 at 14h 53m 29s.xml">
-      <configuration name="TestLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestLogin_init - 2018.10.01 at 16h 42m 42s.xml">
-      <configuration name="TestLogin.init" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestLogin - 2018.10.01 at 16h 43m 04s.xml">
       <configuration name="TestLogin" configurationId="TestNG" />
     </history-entry>
@@ -482,10 +474,30 @@
     <history-entry file="TestLogin - 2018.10.01 at 16h 44m 08s.xml">
       <configuration name="TestLogin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestLogin - 2018.10.01 at 16h 57m 08s.xml">
+      <configuration name="TestLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLogin - 2018.10.01 at 16h 58m 32s.xml">
+      <configuration name="TestLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLogin - 2018.10.01 at 16h 59m 34s.xml">
+      <configuration name="TestLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLogin - 2018.10.01 at 17h 06m 54s.xml">
+      <configuration name="TestLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestLogin - 2018.10.01 at 17h 07m 56s.xml">
+      <configuration name="TestLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_sangkieu_Documents_Yojee_Login_Testng_xml - 2018.10.02 at 15h 14m 23s.xml">
+      <configuration name="/Users/sangkieu/Documents/Yojee_Login/Testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_sangkieu_Documents_Yojee_Login_Testng_xml - 2018.10.02 at 15h 28m 02s.xml">
+      <configuration name="/Users/sangkieu/Documents/Yojee_Login/Testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="848" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1750" y="269" width="1440" height="848" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -501,7 +513,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.08994709" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3346561" />
@@ -520,16 +532,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/Pages/YojeeLogin.java" />
-    <entry file="file://$PROJECT_DIR$/Yojee_Login.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Testng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestNG.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -547,13 +549,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -591,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="370">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#842#843#0" expanded="true" />
@@ -605,20 +600,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
+    <entry file="file://$PROJECT_DIR$/configs/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/configFileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/dataProvider/configFileReader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+        <state relative-caret-position="210">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -627,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Test/TestLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        <state relative-caret-position="632">
+          <caret line="60" column="28" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1585#1586#0" expanded="true" />
@@ -637,10 +639,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/config.properties">
+    <entry file="file://$PROJECT_DIR$/Yojee_Login.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="325">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#7;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#8;n#dependencies#0;n#project#0;n#!!top" />
+            <element signature="n#dependency#9;n#dependencies#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -700,7 +718,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.14252874" />
               </list>
             </option>
           </splitter-proportions>
@@ -712,7 +730,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.43793103" />
               </list>
             </option>
           </splitter-proportions>

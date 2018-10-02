@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
+import static org.testng.Assert.assertEquals;
+
 
 public class LoginPage {
 
@@ -42,6 +44,7 @@ public class LoginPage {
     //This method to verify login successfully  with correct user name
     public void verifyUserName(){
         String userName = userProfile.getText();
-        System.out.println(userName);
+        String userProfileName = "Yojee QA";
+        assertEquals(userProfileName,userName);
     }
 }

@@ -53,4 +53,9 @@ public class configFileReader {
         if(passWord != null) return passWord;
         else throw new RuntimeException("passWord not specified in the Configuration.properties file.");
     }
+    public String getHomePageTitle() {
+        String homePageTitle = properties.getProperty("homePageTitle");
+        if(homePageTitle != null) return homePageTitle;
+        else throw new RuntimeException("homePageTitle not specified in the Configuration.properties file.");
+    }
 }
