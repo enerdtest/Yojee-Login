@@ -1,6 +1,6 @@
 package pages;
 
-import dataProvider.configFileReader;
+import dataProvider.ConfigFileReader;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.Assert.assertEquals;
@@ -8,6 +8,8 @@ import static org.testng.Assert.assertEquals;
 public class HomePage {
 
     WebDriver driver;
+    ConfigFileReader configFileReader = new ConfigFileReader();
+
 
     public HomePage(WebDriver driver){
         this.driver=driver;
@@ -15,10 +17,8 @@ public class HomePage {
 
     //This method got get page title after open the URL to make sure open correct URL
     public void verifyHomePageTitle(){
-
-        configFileReader configFileReader = new configFileReader();
-        String actualTitle = driver.getTitle();
-        String homePageTitle = configFileReader.getHomePageTitle();
-        assertEquals(homePageTitle,actualTitle);
+      String actualTitle = driver.getTitle().trim();
+      String homePageTitle = configFileReader.getHomePageTitle();
+      assertEquals(homePageTitle,actualTitle);
     }
 }

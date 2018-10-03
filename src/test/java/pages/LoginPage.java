@@ -6,9 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
-import static org.testng.Assert.assertEquals;
-
-
 public class LoginPage {
 
     WebDriver driver;
@@ -22,9 +19,6 @@ public class LoginPage {
     @FindBy(how = How.XPATH, using=".//*/input[contains(@name, 'email')]") WebElement txtEmail;
     @FindBy(how = How.XPATH, using=".//*/input[contains(@name, 'password')]") WebElement txtPassword;
     @FindBy(how = How.XPATH, using = ".//*/button[contains(@type, 'submit')]") WebElement btnLogin;
-
-    // Get User name after login successfully
-    @FindBy(how = How.XPATH, using = ".//*/div[@class=' pull-right']//span[@class='semi-bold']") WebElement userProfile;
 
     // Defining all the user actions (Methods) that can be performed in the Facebook home page
 
@@ -43,10 +37,4 @@ public class LoginPage {
         btnLogin.click();
     }
 
-    //This method to verify login successfully  with correct user name
-    public void verifyUserName(){
-        String userName = userProfile.getText();
-        String userProfileName = "Yojee QA";
-        assertEquals(userProfileName,userName);
-    }
 }

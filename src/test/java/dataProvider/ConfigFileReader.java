@@ -7,12 +7,12 @@ import java.io.IOException;
 import java.util.Properties;
 
 
-public class configFileReader {
+public class ConfigFileReader {
 
     private Properties properties;
     private final String propertyFilePath="configs/config.properties";
 
-    public configFileReader(){
+    public ConfigFileReader(){
         BufferedReader reader;
         try {
             reader = new BufferedReader(new FileReader(propertyFilePath));
@@ -58,4 +58,30 @@ public class configFileReader {
         if(homePageTitle != null) return homePageTitle;
         else throw new RuntimeException("homePageTitle not specified in the Configuration.properties file.");
     }
+    public String getUserProfileName(){
+        String userProfileName = properties.getProperty("userProfileName");
+        if(userProfileName != null) return userProfileName;
+        else throw new RuntimeException("userProfileName not specified in the Configuration.properties file.");
+    }
+    public String getWorkName(){
+        String workerName = properties.getProperty("workerName");
+        if(workerName != null) return workerName;
+        else throw new RuntimeException("workerName not specified in the Configuration.properties file.");
+    }
+    public String getWorkPhoneNumber(){
+        String workPhoneNumber = properties.getProperty("workPhoneNumber");
+        if(workPhoneNumber != null) return workPhoneNumber;
+        else throw new RuntimeException("WorkPhoneNumber not specified in the Configuration.properties file.");
+    }
+    public String getWorkEmail(){
+        String workerEmail = properties.getProperty("workerEmail");
+        if(workerEmail != null) return workerEmail;
+        else throw new RuntimeException("workerEmail not specified in the Configuration.properties file.");
+    }
+    public String getSMSToken(){
+        String SMSToken = properties.getProperty("SMSToken");
+        if(SMSToken != null) return SMSToken;
+        else throw new RuntimeException("SMSToken not specified in the Configuration.properties file.");
+    }
+
 }
