@@ -73,9 +73,9 @@ public class TestLogin {
         //Click add new Worker Button
         adminPage.clickAddWorkerButton();
         //Set Name, Phone, Email, SMS Token and Save new Worker
-        adminPage.setWorkerName(configFileReader.getWorkName());
-        adminPage.setWorkerPhoneNumber(configFileReader.getWorkPhoneNumber());
-        adminPage.setWorkerEmail(configFileReader.getWorkEmail());
+        adminPage.setWorkerName(configFileReader.getWorkerName());
+        adminPage.setWorkerPhoneNumber(configFileReader.getWorkerPhoneNumber());
+        adminPage.setWorkerEmail(configFileReader.getWorkerEmail());
         adminPage.checkUseSMSToken();
         adminPage.setSMSToken(configFileReader.getSMSToken());
         adminPage.clickSaveNewWorker();
@@ -85,11 +85,11 @@ public class TestLogin {
         adminPage.verifyNewWorker();
     }
 
-//    @AfterSuite
-//    //Test cleanup
-//    public void TeardownTest() {
-//        if (driver != null)
-//            driver.quit();
-//    }
+    @AfterSuite
+    //Test cleanup
+    public void TeardownTest() {
+        if (driver != null)
+            driver.quit();
+    }
 
 }

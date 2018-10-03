@@ -91,9 +91,9 @@ public class AdminPage {
         String actualWorkerName = workerName.getText().trim().toLowerCase();
         String actualPhoneNumber = workerPhoneNumber.getText().trim().toLowerCase();
         String actualEmail = workerEmail.getText().trim().toLowerCase();
-        String workerName = configFileReader.getWorkName().trim().toLowerCase();
-        String phoneNumber = configFileReader.getWorkPhoneNumber().toLowerCase();
-        String workEmail = configFileReader.getWorkEmail();
+        String workerName = configFileReader.getWorkerName().trim().toLowerCase();
+        String phoneNumber = configFileReader.getWorkerPhoneNumber().toLowerCase();
+        String workEmail = configFileReader.getWorkerEmail();
 
         assertEquals(workerName,actualWorkerName);
         assertEquals(phoneNumber,actualPhoneNumber);

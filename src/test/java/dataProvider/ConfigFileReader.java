@@ -63,17 +63,17 @@ public class ConfigFileReader {
         if(userProfileName != null) return userProfileName;
         else throw new RuntimeException("userProfileName not specified in the Configuration.properties file.");
     }
-    public String getWorkName(){
+    public String getWorkerName(){
         String workerName = properties.getProperty("workerName");
         if(workerName != null) return workerName;
         else throw new RuntimeException("workerName not specified in the Configuration.properties file.");
     }
-    public String getWorkPhoneNumber(){
+    public String getWorkerPhoneNumber(){
         String workPhoneNumber = properties.getProperty("workPhoneNumber");
         if(workPhoneNumber != null) return workPhoneNumber;
         else throw new RuntimeException("WorkPhoneNumber not specified in the Configuration.properties file.");
     }
-    public String getWorkEmail(){
+    public String getWorkerEmail(){
         String workerEmail = properties.getProperty("workerEmail");
         if(workerEmail != null) return workerEmail;
         else throw new RuntimeException("workerEmail not specified in the Configuration.properties file.");
